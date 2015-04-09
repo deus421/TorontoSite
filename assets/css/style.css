@@ -1,0 +1,219 @@
+.bord {
+	border: 5px solid black;
+}
+
+span {
+	display: inline-block;
+	padding: 8px 5px;
+	min-width: 130px;
+}
+
+/* the main style for every page */
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: 800px;
+	background-color: #EFFBFF;
+	/*
+	-webkit-box-shadow: 0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	*/
+}
+
+/* an alteration of the main style for specific pages */
+.fitMain{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: auto;
+	background-color: #EFFBFF;
+	/*
+	-webkit-box-shadow: 0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	*/
+}
+
+.main h1, h2, h3, h4{
+	color: #175DA3;
+	padding: 0 20px;
+}
+
+.fitMain h1, h2, h3, h4{
+	color: #175DA3;
+	padding: 0 20px;
+}
+
+/* paragraph padding */
+.main p{
+	padding: 10px 20px;
+}
+
+.fitMain p{
+	padding: 10px 20px;
+}
+
+/* header style */
+.header {
+	float: top;
+	height: 220px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EFFBFF;
+	/*
+	-webkit-box-shadow: 0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 13px 1px rgba(50, 50, 50, 0.75);
+	*/
+}
+
+#logoHead{
+	text-align: center;
+}
+
+#commentDiv{
+	padding: 10px 20px;
+}
+
+#topComment{
+	padding: 10px 20px;
+}
+
+#errorDiv {
+	padding: 10px 20px;
+	color: red;
+}
+
+/* NAVIGATION */
+#navi {
+	text-align: center;
+}
+
+#navi ul {
+    padding:0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    display:inline-block;
+}
+     
+#navi ul li {
+    float:left;
+    display:list-item;
+    list-style: none;
+    background-color: #175DA3;
+    width: 120px;
+}
+
+#navi ul li a {
+    display:block;
+    padding:20px 10px; 
+    text-decoration:none;
+    color: white;
+}
+
+li a:hover { 
+	background-color: #91A7B5; 
+}
+  
+#navi ul ul {
+    display: none;
+    position: absolute;
+    margin-left: auto;
+	margin-right: auto;
+}
+     
+/* Display Dropdowns on Hover */
+#navi ul li:hover > ul {
+    display:list-item;
+}
+     
+/* Fisrt Tier Dropdown */
+#navi ul ul li {
+    width:120px;
+    float:none;
+    position: relative;
+}
+
+.smallerFont {
+	font-size: .7em;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+/* animate menu */
+#navi li:hover > ul{
+    display: block;
+    -moz-animation: bounceIn .3s ease-in;
+    -webkit-animation: bounceIn .3s ease-in ;
+    animation: bounceIn .3s ease-in;
+ 
+}
+
+#map-canvas {
+	width: 800px;
+	height: 600px;
+	padding-bottom: 100px;
+	margin: 0 auto;
+}
+
+/* IMAGES */
+
+#banner {
+	margin: 0 auto;
+	display: inherit;
+}
+
+#rogersConcert {
+	width: 30%;
+	float: right;
+	padding: 15px;
+}
+
+#torontoMap {
+	max-width: 900px;
+	height: auto;
+}
+
+/* background of body */
+body {
+	background-color: white;
+	font-family: 'Arvo', serif;
+}
+
+body figcaption{
+	font-size: 10px;
+}
+
+#aboutLink {
+	padding-left: 20px
+}
+
+.leftDiv {
+	float: left;
+	width: 50%;
+}
+
+.rightDiv {
+	float: right;
+	width: 50%;
+}
+
+/* general center style */
+.center {
+	text-align: center;
+}
+
+.imgCenter {
+	margin-left: 20px;
+}
+
+/* current page user is on */
+.currPage {
+	background-color: red; 
+}
